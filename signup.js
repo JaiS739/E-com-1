@@ -22,4 +22,7 @@ document.querySelector("#name").value="";
 document.querySelector("#email").value="";
 document.querySelector("#pwd").value="";
 
+alert("login succesfull");
+window.location.href="login.js";
+
 }
