@@ -23,6 +23,5 @@ document.querySelector("#email").value="";
 document.querySelector("#pwd").value="";
 
 alert("login succesfull");
-window.location.href="login.js";
-
+window.location.href="login.html";
 }
