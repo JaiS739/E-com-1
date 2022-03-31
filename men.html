@@ -31,16 +31,33 @@
             cursor: pointer;
         }
 
+        #container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            width: 85%;
+            margin: auto;
+        }
+
+        #gotocart{
+            color: white;
+            background-color: blue;
+            
+        }
     </style>
 </head>
 <body>
+    
     <div id="navbar">
         <div id="men"><a href="men.html">Men</a></div>
         <div id="women"><a href="women.html">Women</a></div>
         <div id="kids"><a href="kids.html">Kids</a></div>
         <div id="signup"><a href="signup.html">signup</a></div>
         <div id="login"><a href="login.html">login</a></div>
+        <div id="cart"><a href="cart.html">cart</a></div>
     </div>
+
+    <button id="gotocart" ><a href="cart.html">go to cart</a></button>
     
     <div id="container">
 
